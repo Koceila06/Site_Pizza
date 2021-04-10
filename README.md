@@ -14,7 +14,7 @@
 <ol>
     <li>
        <strong>Administrateur : </strong></li>
-    </br>
+    
 <ul>
  <li> Gestion des pizzas :
     <ul> 
@@ -49,6 +49,7 @@
    </ul>  
  </li>      
  </ul>
+ 
  </br>
  <li><strong> Pizzaiolo : </strong></li>
  <ul>
@@ -57,6 +58,7 @@
     <li> MAJ du statut de la commande (en traitement, prête, récupérée)</li>
     <li>Changer son mot de passe</li>
     </ul>
+    </br>
  <li><strong> Utilisateurs : </strong></li>
  <ul>
  
@@ -94,6 +96,7 @@
  
  
  </ol>
+ </br>
  
  
  
