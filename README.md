@@ -10,7 +10,7 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
 ## Fonctionnalités
 <ol>
     <li>
-      Administrateur: </li>
+        <strong>Administrateur: </strong></li>
 <br/>
 <ul>
  <li> Gestion des pizzas :
