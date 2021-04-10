@@ -4,9 +4,10 @@
 
 ## Présentation du Site
 Le site permet d'effectuer des commandes de pizza(à emporter), il comporte 3 acteur :<br/>
-a) Les utilisateurs: ils peuvent parcourir la liste des pizzas, les rajouter au panier, passer la commande et en être informé de son statut.<br/>
-b) Le gérant (administrateur) du site: il peut rajouter/modifier les pizzas, voir l’état des commandes, ainsi que la recette du jour. <br/>
-c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur statut.
+<ul>
+<li>Les utilisateurs: ils peuvent parcourir la liste des pizzas, les rajouter au panier, passer la commande et en être informé de son statut</li>
+<li>Le gérant (administrateur) du site: il peut rajouter/modifier les pizzas, voir l’état des commandes, ainsi que la recette du jour.</li>
+    <li>Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur statut</li>
 ## Fonctionnalités
 <ol>
     <li>
