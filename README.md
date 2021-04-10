@@ -13,7 +13,7 @@
 ## Fonctionnalités
 <ol>
     <li>
-       <strong>Administrateur: </strong></li>
+       <strong>Administrateur : </strong></li>
 <br/>
 <ul>
  <li> Gestion des pizzas :
@@ -38,7 +38,7 @@
    
  </li>
 
- <li> Gestion des utilisateurs:
+ <li> Gestion des utilisateurs :
     <ul> 
       <li>Changer son mot de passe</li>
       <li>Créer un utilisateur administrateur</li>
