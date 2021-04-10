@@ -108,6 +108,16 @@
 
 <br/>
 
+## Comment tester l'application ? :
+<ul>
+    <li>Créer une base de données sqlite en respectant les noms et champs indiqués ci-dessus </li> 
+    <li>Copier le fichier <strong>.env.exemple</strong> dans <strong> .env </strong> et y rajouter les paramètres </li>
+    <li>Exécuter <strong>composer update </strong></li>
+    <li>Lancer l'application avec <strong> php artisan serve </strong></li>
+ </ul>
+
+<br/>
+
 ## Outils Utilisés :
 
 Framework Laravel, PHP, Base de Données Sqlite, HTML, CSS. 
