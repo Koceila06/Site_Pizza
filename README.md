@@ -16,7 +16,7 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
       <li>Ajouter une nouvelle pizza</li>
       <li>Voir la liste des pizzas</li>
       <li>Changer le descriptif ou le nom d’une pizza</li>
-      <li>«Supprimer» une pizza(une pizza déjà commandée ne peut pas être supprimée définitivement –uniquement en utilisant SoftDelete)</li   
+      <li>«Supprimer» une pizza(une pizza déjà commandée ne peut pas être supprimée définitivement –uniquement en utilisant SoftDelete)</li>  
    </ul>    
  </li>
    
