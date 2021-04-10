@@ -3,7 +3,7 @@
 
 
 ## Présentation du Site
-<p> Le site permet d'effectuer des commandes de pizza(à emporter), il comporte 3 acteur : </p>
+<p> <strong>Le site permet d'effectuer des commandes de pizza(à emporter), il comporte 3 acteur : </strong></p>
 <ul>
 <li>Les utilisateurs: ils peuvent parcourir la liste des pizzas, les rajouter au panier, passer la commande et en être informé de son statut</li>
 <li>Le gérant (administrateur) du site: il peut rajouter/modifier les pizzas, voir l’état des commandes, ainsi que la recette du jour</li>
