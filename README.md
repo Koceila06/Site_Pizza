@@ -7,7 +7,24 @@ Le site permet d'effectuer des commandes de pizza(à emporter), il comporte 3 ac
 a) Les utilisateurs: ils peuvent parcourir la liste des pizzas, les rajouter au panier, passer la commande et en être informé de son statut.<br/>
 b) Le gérant (administrateur) du site: il peut rajouter/modifier les pizzas, voir l’état des commandes, ainsi que la recette du jour. <br/>
 c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur statut.
-## Règles du jeu 
+## Fonctionnalités
+**Administrateur:**
+<br/>
+<ol>
+ <li> Gestion des pizzas :
+    <ul> 
+      <li>Ajouter une nouvelle pizza</li>
+      <li>Voir la liste des pizzas</li>
+      <li>Changer le descriptif ou le nom d’une pizza</li>
+      <li>«Supprimer» une pizza(une pizza déjà commandée ne peut pas être supprimée définitivement –uniquement en utilisant SoftDelete)</li>
+
+     
+     
+   </ul>
+    
+    
+ </li>
+ </ol>
 Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7
 colonnes. Tour à tour les deux joueurs placent un
 pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans
