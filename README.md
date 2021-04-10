@@ -104,7 +104,7 @@
     <li>pizzas(id,nom,description,prix,created_at,updated_at,deleted_at)</li>
     <li>commandes(id,user_id,statut,created_at,updated_at)</li>
     <li>commande_pizza(commande_id,pizza_id,qte)</li>
- /ul>
+ </ul>
 
 <br/>
 ## Outils Utilisés :
