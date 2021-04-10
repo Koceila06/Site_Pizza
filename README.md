@@ -12,7 +12,7 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
     <li>
       Administrateur: </li>
 <br/>
-<ol>
+<ul>
  <li> Gestion des pizzas :
     <ul> 
       <li>Ajouter une nouvelle pizza</li>
@@ -45,7 +45,7 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
 
    </ul>  
  </li>      
- </ol>
+ </ul>
  <li> Utlisateurq</li>
  </ol>
  
