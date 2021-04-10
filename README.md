@@ -98,20 +98,14 @@
  </ol>
  </br>
  
- 
- 
- 
- 
-Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7
-colonnes. Tour à tour les deux joueurs placent un
-pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans
-la colonne à la suite de quoi c'est à l'adversaire de jouer. Le vainqueur est le joueur qui réalise le
-premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa
-couleur. Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a
-réalisé un tel alignement, la partie est déclarée nulle
-## Comment jouer ? 
-*Pour jouer,il faut chercher la classe "Partie" et l'exécuter,il y'a deux mode de jeu :*
-<br/>
+## Base de données :
+<ul>
+    <li>users (id,nom,prenom,login,mdp,type)</li> 
+    <li>pizzas(id,nom,description,prix,created_at,updated_at,deleted_at)</li>
+    <li>commandes(id,user_id,statut,created_at,updated_at)</li>
+    <li>commande_pizza(commande_id,pizza_id,qte)</li>
+ /ul>
+
 <br/>
 
 **Humain vs Humain :** 
