@@ -41,23 +41,14 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
       <li>Changer le mot de passe du pizzaiolo</li> 
       <li>Supprimer un utilisateur (admin ou pizzaiolo)</li>   
 
-   </ul> 
-   
-   
- </li>
-    <ul> 
-      <li>Afficher la liste des commandes pour une date</li>
-      <li>Afficher la liste des commandes du jour triées par le statut et la date</li>
-      <li>Afficher la liste de toutes les commandes (avec pagination)</li>
-      <li>Afficher la recette du jour</li> 
-      <li>Voir le détail d’une commande(pizzaset prix total)</li>   
-
-   </ul> 
-   
-   
- </li>
-        
+   </ul>  
+ </li>      
  </ol>
+ 
+ 
+ 
+ 
+ 
 Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7
 colonnes. Tour à tour les deux joueurs placent un
 pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans
