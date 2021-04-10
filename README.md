@@ -14,6 +14,7 @@
 <ol>
     <li>
        <strong>Administrateur : </strong></li>
+    </br>
 <ul>
  <li> Gestion des pizzas :
     <ul> 
@@ -48,6 +49,7 @@
    </ul>  
  </li>      
  </ul>
+ </br>
  <li><strong> Pizzaiolo : </strong></li>
  <ul>
     <li>Voir la liste des commandes non-traitées (triée parle moment d’arrivée) </li>
