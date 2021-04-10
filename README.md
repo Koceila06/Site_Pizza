@@ -14,7 +14,6 @@
 <ol>
     <li>
        <strong>Administrateur : </strong></li>
-<br/>
 <ul>
  <li> Gestion des pizzas :
     <ul> 
@@ -49,7 +48,49 @@
    </ul>  
  </li>      
  </ul>
- <li><strong> Utlisateurs : </strong></li>
+ <li><strong> Pizzaiolo : </strong></li>
+ <ul>
+    <li>Voir la liste des commandes non-traitées (triée parle moment d’arrivée) </li>
+    <li>Voir le détail des commandes non-traitées</li>
+    <li> MAJ du statut de la commande (en traitement, prête, récupérée)</li>
+    <li>Changer son mot de passe</li>
+    </ul>
+ <li><strong> Utilisateurs : </strong></li>
+ <ul>
+ 
+ <li> Gestion du compte :
+    <ul> 
+      <li>Création du compte</li>
+      <li>Changement de son mot de passe</li>
+      
+   </ul>    
+ </li>
+ 
+ <li> Commande pizza :
+    <ul> 
+      <li>Liste des pizzas (avec pagination)</li>
+      <li>Ajout de pizza dans le panier</li>
+      <li>Modification de la quantité des pizzas dans le panier</li>
+      <li>Suppression des pizzas du panier</li>
+      <li>Affichage du prix total et passage de la commande</li>    
+   </ul>   
+    
+ </li>
+ 
+  <li> Gestion des commandes :
+    <ul> 
+      <li>Voir la liste des commandes passées triées par date (avec pagination))</li>
+      <li>Voir le détail de la commande (pizzas et prix total)r</li>
+      <li>Voir les commandes non-récupérées(statuts envoyé,  en traitement, prête)</li> 
+   </ul>   
+    
+ </li>
+
+
+
+</ul>
+ 
+ 
  </ol>
  
  
