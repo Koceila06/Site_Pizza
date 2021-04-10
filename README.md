@@ -8,7 +8,9 @@ a) Les utilisateurs: ils peuvent parcourir la liste des pizzas, les rajouter au 
 b) Le gérant (administrateur) du site: il peut rajouter/modifier les pizzas, voir l’état des commandes, ainsi que la recette du jour. <br/>
 c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur statut.
 ## Fonctionnalités
-**1.Administrateur:**
+<ol>
+    <li>
+      Administrateur: </li>
 <br/>
 <ol>
  <li> Gestion des pizzas :
@@ -43,6 +45,8 @@ c) Le pizzaiolo: il peut voir les commandes dans l’ordre et de changer leur st
 
    </ul>  
  </li>      
+ </ol>
+ <li> Utlisateurq</li>
  </ol>
  
  
