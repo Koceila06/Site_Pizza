@@ -48,7 +48,7 @@ class PanierController extends Controller
             $c=$pan[$pizza_id];
             $pan[$pizza_id]=$c+1;
             */
-            $request->session()->flash('etat','Pizza deja dans le panier, allez dans le panier pr le modier ou le supprimer');
+            $request->session()->flash('etat','Pizza déja dans le panier, allez dans le panier pour le modifier ou le supprimer');
             return back();
 
         }else{//sinon ajouter l'id et le mettre à 1
@@ -61,7 +61,7 @@ class PanierController extends Controller
         $request->session()->put('panier_nom',$pan_nom);
 
         //dd($pan);
-        $request->session()->flash('etat','Ajout de la pizza dans le panier effectuer');
+        $request->session()->flash('etat','Ajout de la pizza dans le panier effectué');
         return back();
         //return redirect()->route('user.commande.panier.index');
     }
@@ -161,7 +161,7 @@ class PanierController extends Controller
         $request->session()->put('panier',$pan_vide);
         $request->session()->put('panier_nom',$pan_nom_vide);
 
-        $request->session()->flash('etat','Achat effectuer');
+        $request->session()->flash('etat','Achat effectué');
         return redirect()->route('user.commande.panier.index');
 
     }
