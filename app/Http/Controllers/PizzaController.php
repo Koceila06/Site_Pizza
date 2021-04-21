@@ -29,7 +29,7 @@ class PizzaController extends Controller
         $pizza->prix=$request->prix;
         $pizza->save();
 
-        $request->session()->flash('etat','Ajout effectuer');
+        $request->session()->flash('etat','Ajout effectué');
 
         return redirect(route('admin.pizza.index'));
     }
@@ -61,7 +61,7 @@ class PizzaController extends Controller
             'ida'=>'required|integer'
         ]);
 
-        //$request->session()->flash('etat','Ajout effectuer');
+        $request->session()->flash('etat','Modification effectuée');
 
         return redirect()->route('admin.pizza.edit.index',['id'=>$validated['ida']]);
 
@@ -154,12 +154,12 @@ class PizzaController extends Controller
         $commande_pizza_pizza_id=DB::table('commande_pizza')->where('pizza_id','=',$pizza_id);
         if(empty($commande_pizza_pizza_id)){
             $pizza->delete();
-            $request->session()->flash('etat','suppression en softdelete effectuer');
+            $request->session()->flash('etat','suppression en softdelete effectuée');
             return back();
         }
 
         $pizza->forceDelete();
-        $request->session()->flash('etat','suppression definitive effectuer');
+        $request->session()->flash('etat','suppression definitive effectuée');
         return back();
     }
 
