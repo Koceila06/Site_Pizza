@@ -49,7 +49,7 @@ class RegisterUserController extends Controller
         $user->save();
 
         //Auth::login($user);//optionelle: pour connecter directement l(utilisateur
-        $request->session()->flash('etat',"Creation de l'utilisateur administrateur effectuer");
+        $request->session()->flash('etat',"Creation de l'utilisateur administrateur effectuée");
         return redirect()->route('admin.utilisateur.index_utilisateur');
     }
     public function registerCook(Request $request){
@@ -69,7 +69,7 @@ class RegisterUserController extends Controller
         $user->save();
 
         //Auth::login($user);//optionelle: pour connecter directement l(utilisateur
-        $request->session()->flash('etat','Creation du pizzaiolo effectuer');
+        $request->session()->flash('etat','Creation du pizzaiolo effectuée');
         return redirect()->route('admin.utilisateur.index_utilisateur');
     }
 }
