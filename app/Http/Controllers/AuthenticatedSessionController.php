@@ -29,7 +29,7 @@ class AuthenticatedSessionController extends Controller
 
         //il a pas reussi a ce connecter
         return back()->withErrors([
-            'login' => 'Erreur survenu sur le login',
+            'login' => 'Erreur survenue sur le login',
         ]);
 
     }
