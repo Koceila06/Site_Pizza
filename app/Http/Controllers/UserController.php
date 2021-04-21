@@ -39,11 +39,11 @@ class UserController extends Controller
             $user->mdp=Hash::make($validated['mdp']);
             //$user->timestamps = false;
             $user->save();
-            $request->session()->flash('etat','Modification effectuer');
+            $request->session()->flash('etat','Modification effectuée');
             return redirect()->route('home.user');
         }
 
-        $request->session()->flash('etat','erreur dans votre saisi, veuillez reesayer');
+        $request->session()->flash('etat','erreur dans votre saisie, veuillez réessayer');
         return redirect()->route('user.modifier_mdp');
     }
 
@@ -101,7 +101,7 @@ class UserController extends Controller
             if($user->type=="cook"){//on verifie si l'utilisateur à modifier est un pizzaiolo
                 $user->mdp=Hash::make($validated['mdp']);
                 $user->save();
-                $request->session()->flash('etat','Modification du mot de passe du Pizzaiolo effectuer ');
+                $request->session()->flash('etat','Modification du mot de passe du Pizzaiolo effectuée ');
                 return redirect()->route('admin.utilisateur.index_utilisateur');
             }
             $request->session()->flash('etat',"l'utilisateur n'est pas un pizzaiolo");
